@@ -1,0 +1,47 @@
+{
+  "name": "comprafacil",
+  "version": "1.0.0",
+  "description": "CompraFácil payment gateway wrapper",
+  "homepage": "https://github.com/log-oscon/node-comprafacil",
+  "license": "GPL-2.0+",
+  "repository": "log-oscon/node-comprafacil",
+  "author": [
+    {
+      "name": "Sérgio Santos",
+      "email": "me@s3rgiosan.com",
+      "homepage": "https://github.com/s3rgiosan"
+    },
+    {
+      "name": "log.OSCON, Lda.",
+      "email": "engenharia@log.pt",
+      "homepage": "http://log.pt/"
+    }
+  ],
+  "keywords": [
+    "comprafacil",
+    "hipay",
+    "wrapper",
+    "api",
+    "payment",
+    "gateway"
+  ],
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "*",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.0.0",
+    "mocha": "*",
+    "sinon": "^1.15.4"
+  },
+  "dependencies": {
+    "compress": "^0.99.0",
+    "lodash": "^3.9.3",
+    "soap": "^0.9.1"
+  },
+  "scripts": {
+    "beefy": "beefy index.js:main.js --open",
+    "jshint": "jshint --reporter node_modules/jshint-stylish/index.js lib/* index.js",
+    "mocha": "node_modules/.bin/mocha --reporter spec test",
+    "test": "npm run jshint && npm run mocha"
+  }
+}
