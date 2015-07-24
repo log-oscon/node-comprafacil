@@ -71,6 +71,10 @@ $ npm run test
 
 ## Changelog
 
+### 1.1.0
+
+* Bug fixing and code review
+
 ### 1.0.0
 
 * Stable release
