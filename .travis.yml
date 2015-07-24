@@ -1,6 +1,12 @@
 sudo: false
 language: node_js
 node_js:
-  - 'iojs'
-  - '0.12'
-  - '0.10'
+- iojs
+- '0.12'
+- '0.10'
+deploy:
+  provider: npm
+  api_key:
+    secure: j0yt1CPllmuV1f0utJr3wybkGjSFf5zIwC4cyzIa1oT1mVwnCXHnnqwq+gzmNzScyTI++SvDK5iA+vHF1bqhqIs3qxMqcpZmwrmAURWdFMb5feGiM4hHreRJEo5bdsZD6tthgMpIxgfrF1quETch5p3bGSD1kdxP8lWMD4aGHG7pG3/1dzZuWyNYl1ceFtWeo9aVercDeMY7O94Wli9LF13rcy+bs8qLC2k3MZC4CL390U9dEIrJ3cPMNb0On/Ob8emmS1zTEsZXBUYIj7aYWPCwMqveDVTPvV/f25YdAlf1IpnnOgiHH62RBpZ46hT0J3hLMwenAYQ1FaICu/lz3VEszAT4sW9NispuZvFIjd4saogIa/eWgbC1YSdZ7BgcALpbbqQlJ4rTUMjs9YccVqE2Cd4dLxQLOB779f8OSAXLKL66L93xPzr3d3KBYp4MSUvErccjNtXuNxlkejbIL1NN5Y3o0zzn6vO9soI7K39uadzhyBXWHc0JdhwF+j9YmrC/hGm7Cz/nNoYi8QIYaRPd0WlnQYm42MB+cx7cAbR36vvIJbcvxEIVXeYaAT8a+lSanieDAF2F+4Exd/nmBp/0nlxa0YDyB8jBpMk09gw63E6w8850QgxjRAZOYA2VREidC5fYlE89xUczhr2vHNrnGraStIAl9m6F0G5NoRU=
+  on:
+    tags: true
