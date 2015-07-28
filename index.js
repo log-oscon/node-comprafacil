@@ -107,7 +107,7 @@
             result.error         = resp.error;
             result.raw           = resp;
 
-            if (typeof onDone === 'function') {
+            if (typeof options.onDone === 'function') {
               options.onDone(result);
             }
 
