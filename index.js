@@ -68,7 +68,7 @@
      * @param   {string}    options.username      Username.
      * @param   {string}    options.password      Password.
      * @param   {string}    options.dateStartStr  Start date (dd-MM-yyyy hh:mm:ss).
-     * @param   {string}    options.dateEndStr    End date (dd-MM-yyyy hh:mm:ss).
+     * @param   {string}    options.dataEndStr    End date (dd-MM-yyyy hh:mm:ss).
      * @param   {string}    options.type          Return type:
      *                                              P = returns lists of references paid between the
      *                                                  dates specified.
