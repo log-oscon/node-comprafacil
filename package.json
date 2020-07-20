@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "compress": "^0.99.0",
-    "lodash": "^3.9.3",
+    "lodash": "^4.17.19",
     "soap": "^0.9.1"
   },
   "scripts": {
